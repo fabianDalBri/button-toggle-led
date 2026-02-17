@@ -1,7 +1,7 @@
 #include "pico/stdlib.h"
 
 #define LED 15
-#define BTN 14   // change if you moved to GP0 or another pin
+#define BTN 14 
 
 int main() {
     gpio_init(LED);
